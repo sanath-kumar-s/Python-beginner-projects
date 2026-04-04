@@ -29,10 +29,10 @@ This repository is focused on:
 
 ## 🚀 Projects List
 
-| Project Name | Description             | Tech Stack | Status    |
-| ------------ | ----------------------- | ---------- | --------- |
-| ExeFlow      | Python script compiler. | Python     | 🟢 Active |
-| FlappyBird   | Simple flappy bird game | Python     | 🟢 Active |
+| Project Name                                                                                         | Description             | Tech Stack | Status    |
+| ---------------------------------------------------------------------------------------------------- | ----------------------- | ---------- | --------- |
+| [ExeFlow](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/PythonScriptCompiler) | Python script compiler. | Python     | 🟢 Active |
+| [FlappyBird](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/FlappyBird)        | Simple flappy bird game | Python     | 🟢 Active |
 
 > ✨ **Feel free to add your project by creating a pull request!**
 
@@ -100,18 +100,6 @@ Thanks to all the amazing people who contribute 💙
 <!-- ALL-CONTRIBUTORS-LIST:START -->
 <!-- Contributors will be added here automatically -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
----
-
-## 🐛 Issue Templates
-
-This repo uses structured issue templates to keep things organized:
-
-- 🐞 **Bug Report** — Report something that isn't working
-- 🚀 **Feature Request** — Suggest a new idea or improvement
-- 📁 **New Project Submission** — Add your beginner project
-
-> Templates are located in `.github/ISSUE_TEMPLATE/`
 
 ---
 
