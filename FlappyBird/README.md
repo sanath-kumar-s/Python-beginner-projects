@@ -1,4 +1,4 @@
-# Flappy Bird Multiplayer
+# Flappy Bird
 
 ## Game Description
 
