@@ -72,24 +72,8 @@ Follow these steps:
 
 7. **Create a Pull Request** 🎉
 
----
-
-## 🧠 Contribution Ideas
-
-- 💡 Add a new beginner project
-- 📝 Improve README or documentation
-- 🐛 Fix bugs in existing projects
-- ⚡ Optimize code
-- 💬 Add comments for better understanding
-
----
-
-## 📜 Contribution Guidelines
-
-- Keep projects **simple and beginner-friendly**
-- Write **clean and readable** code
-- Add a **short description** for your project
-- Avoid uploading **unnecessary files**
+> [!NOTE]
+> For more details visit [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
