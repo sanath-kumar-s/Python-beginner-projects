@@ -153,51 +153,7 @@ project-name/
 
 Each project should have its own README with:
 
-````markdown
-# Project Name
-
-## Description
-
-Brief description of what the project does
-
-## Features
-
-- Feature 1
-- Feature 2
-- Feature 3
-
-## Requirements
-
-- Python 3.x
-- List any dependencies
-
-## Installation
-
-```bash
-pip install -r requirements.txt
-```
-````
-
-## Usage
-
-```bash
-python main.py
-```
-
-## Screenshots (if applicable)
-
-![Screenshot](assets/screenshot.png)
-
-## Learning Outcomes
-
-What beginners will learn from this project
-
-## Future Improvements
-
-- Potential enhancement 1
-- Potential enhancement 2
-
-```
+> Visit [README TEMPLATE](README_Template.md) for a starter template
 
 ### Code Quality Standards
 
@@ -208,7 +164,11 @@ What beginners will learn from this project
 - ✅ Handle errors gracefully
 - ✅ Keep functions small and focused
 
+---
+
 ### What NOT to Include
+
+---
 
 - ❌ Unnecessary files (cache, IDE configs, etc.)
 - ❌ Large binary files without good reason
@@ -247,6 +207,7 @@ Before submitting, ensure:
 Looking for inspiration? Here are some beginner-friendly project ideas:
 
 ### Easy Level 🌱
+
 - Calculator (CLI or GUI)
 - To-Do List application
 - Password Generator
@@ -255,6 +216,7 @@ Looking for inspiration? Here are some beginner-friendly project ideas:
 - Simple chatbot
 
 ### Medium Level 🌿
+
 - Weather app using API
 - Expense Tracker
 - Quiz application
@@ -263,6 +225,7 @@ Looking for inspiration? Here are some beginner-friendly project ideas:
 - Simple web scraper
 
 ### Practice Skills 🔧
+
 - Snake game
 - Hangman
 - Currency converter
@@ -297,16 +260,19 @@ All contributors will be recognized in our README! Your contributions help make 
 ## 📚 Resources for Beginners
 
 ### Git & GitHub
+
 - [GitHub Guides](https://guides.github.com/)
 - [Git Handbook](https://guides.github.com/introduction/git-handbook/)
 - [How to Create a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 ### Python
+
 - [Python Official Documentation](https://docs.python.org/3/)
 - [PEP 8 Style Guide](https://pep8.org/)
 - [Real Python Tutorials](https://realpython.com/)
 
 ### Open Source
+
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 - [First Timers Only](https://www.firsttimersonly.com/)
 
