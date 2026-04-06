@@ -1,7 +1,7 @@
 import customtkinter as ctk
 from datetime import datetime
-import time
 import threading
+import time
 import pygame
 
 ctk.set_appearance_mode("dark")
@@ -12,28 +12,40 @@ class AlarmApp(ctk.CTk):
         super().__init__()
 
         self.title("Alarm Clock")
-        self.geometry("400x300")
+        self.geometry("420x320")
 
-        pygame.mixer.init()  # initialize audio
+        pygame.mixer.init()
 
-        # Current time label
-        self.time_label = ctk.CTkLabel(self, text="", font=("Arial", 24))
-        self.time_label.pack(pady=10)
+        # ===== TIME DISPLAY =====
+        self.time_label = ctk.CTkLabel(self, text="", font=("Arial", 32, "bold"))
+        self.time_label.pack(pady=(15, 5))
 
-        # Current date label
         self.date_label = ctk.CTkLabel(self, text="", font=("Arial", 14))
-        self.date_label.pack()
+        self.date_label.pack(pady=(0, 15))
 
-        # Alarm input
-        self.alarm_entry = ctk.CTkEntry(self, placeholder_text="Set alarm (HH:MM:SS)")
-        self.alarm_entry.pack(pady=20)
+        # ===== INPUT SECTION =====
+        input_frame = ctk.CTkFrame(self)
+        input_frame.pack(pady=10)
 
-        # Set alarm button
+        self.hour_entry = ctk.CTkEntry(input_frame, width=60, placeholder_text="HH")
+        self.hour_entry.grid(row=0, column=0, padx=5, pady=10)
+
+        self.min_entry = ctk.CTkEntry(input_frame, width=60, placeholder_text="MM")
+        self.min_entry.grid(row=0, column=1, padx=5, pady=10)
+
+        self.sec_entry = ctk.CTkEntry(input_frame, width=60, placeholder_text="SS")
+        self.sec_entry.grid(row=0, column=2, padx=5, pady=10)
+
+        # ===== BUTTON =====
         self.set_button = ctk.CTkButton(self, text="Set Alarm", command=self.set_alarm)
-        self.set_button.pack()
+        self.set_button.pack(pady=15)
+
+        # ===== STATUS =====
+        self.status_label = ctk.CTkLabel(self, text="", font=("Arial", 12))
+        self.status_label.pack()
 
         self.alarm_time = None
-        self.alarm_triggered = False  # prevent multiple triggers
+        self.alarm_triggered = False
 
         self.update_time()
 
@@ -45,7 +57,6 @@ class AlarmApp(ctk.CTk):
         self.time_label.configure(text=current_time)
         self.date_label.configure(text=current_date)
 
-        # Trigger alarm once
         if self.alarm_time == current_time and not self.alarm_triggered:
             self.alarm_triggered = True
             threading.Thread(target=self.trigger_alarm, daemon=True).start()
@@ -53,19 +64,35 @@ class AlarmApp(ctk.CTk):
         self.after(1000, self.update_time)
 
     def set_alarm(self):
-        self.alarm_time = self.alarm_entry.get()
-        self.alarm_triggered = False
-        print(f"Alarm set for {self.alarm_time}")
+        try:
+            h = int(self.hour_entry.get())
+            m = int(self.min_entry.get())
+            s = int(self.sec_entry.get())
+
+            self.alarm_time = f"{h:02d}:{m:02d}:{s:02d}"
+            self.alarm_triggered = False
+
+            self.status_label.configure(text=f"Alarm set for {self.alarm_time}")
+
+        except ValueError:
+            self.status_label.configure(text="Invalid input. Use numbers only.")
 
     def trigger_alarm(self):
         try:
             pygame.mixer.music.load("Alarm/alarm.mp3")
             pygame.mixer.music.play()
 
-            time.sleep(10)  # play for 10 sec
+            self.status_label.configure(text="⏰ Alarm Ringing!")
+
+            time.sleep(10)
             pygame.mixer.music.stop()
+
+            self.status_label.configure(text="Alarm Stopped")
+
         except Exception as e:
-            print("Error playing sound:", e)
+            self.status_label.configure(text="Error playing sound")
+            print(e)
+
 
 if __name__ == "__main__":
     app = AlarmApp()

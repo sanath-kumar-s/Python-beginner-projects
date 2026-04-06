@@ -161,7 +161,7 @@ In this secciton you can tell about yourself
 
 ---
 
-## 📞 Contact & Support
+## 📞 Contact & Support<!--Include this only if you know what you are doing and this is not mandatory. Delete this section if not required-->
 
 - **Maintainer:** [Your Name]
 - **Email:** [your.email@example.com]

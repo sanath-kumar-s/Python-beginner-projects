@@ -1,45 +1,162 @@
-# Alarm Clock🔥
+<h1 align="center">
+    <img src="alarmImage.jpg" width="20"> [Project Name]
+</h1>
 
-An alarm clock is a clock with a function that can be activated to ring at a time set in advance, used to wake someone up. Here a Python program to create an alarm clock with Python.
+<p align="center">
+    <i>A simple Alarm with Custom Tkinter</i>
+</p>
 
-## 📌How to Create an Alarm Clock with Python?
+<p align="center">
+  <!-- Mandatory Badges -->
+  <a href="#getting-started"><img src="https://img.shields.io/badge/Get%20Started-Click%20Here-brightgreen" alt="Get Started" /></a>
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License MIT" /> 
+  <!-- Recommended Badges -->
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue" alt="Python Version" />
+  <img src="https://img.shields.io/badge/Contributions-Welcome-orange" alt="Contributions Welcome" />
+  <img src="https://img.shields.io/badge/Beginner%20Friendly-Yes-success" alt="Beginner Friendly" />
+</p>
 
-As the title suggests, our task here is to write a python script that creates an alarm clock. For this task, I will be using the DateTime, OS, Time module in Python to create an alarm clock.
+<p align="center">
+  <img src = "screenshot.png" alt = "ScreenCapture" width = "300" >
+</p><!--OPTIONAL BUT RECOMMENDED-->
 
-The DateTime and OS module comes pre-installed in the Python programming language so you can easily import it in your program. Now let’s see how to write a program to create an alarm with Python.
+## 📖 About
 
-## 📌Alarm Clock with Python
+A sleek, modern GUI-based Alarm Clock application built using Python. This app provides a user-friendly interface for setting time-specific alerts, featuring a real-time digital clock display and high-quality audio notifications.
 
-Before writing the program you should know that you also need an alarm tone which will ring at the time of the alarm. So you can download any alarm tune or you can use simple your music gallary songs. Now as we are ready with the libraries and the alarm song, let’s see how to write a program to create an alarm clock with Python:
+---
 
-### Code:
+## ✨ Features
 
-    import os
-    import datetime
-    import time
+- Dynamic GUI
+- Real-Time Monitoring
+- Reliable Audio Alerts
+- Input Validation
 
-    year, month, day = input("Enter the date = ").split("/")    #splitting input values by'/'
+---
 
-    hour, minutes, second = input("Enter the Time = ").split(":")    #splitting input values by':'
+## 🚀 Getting Started
 
-    shedule_date = datetime.date(int(day), int(month), int(year))    #converting input values into interger
+### Prerequisites
 
-    n = 1
+Before you begin, ensure you have the following installed:
 
-    while n > 0:
-    
-        if time.localtime().tm_hour == int(hour) and time.localtime().tm_min == int(minutes) and time.localtime().tm_sec == int(second) and datetime.date.today() == shedule_date:
-        
-            os.startfile("C:\\Users\\KISHAN\\Music\\Chogada.mp3")    #Enter the path of a song or ringtone where it is placed in your system
-        
-            break
-    
-        else:
-        
-            n +=1
-            
+- Python 3.11 and lower
+- pip (Python package manager)
 
-The user input should be in a format of hours: minutes: and then seconds. You will start listening to the song as you will reach the time that has been set. To test your code set the time 2 or 3 minutes later from the time you are giving the user input. 
+### Installation
 
-## 📌Summary
-This idea can be implemented in software applications also, so you now have an idea of what can be a good Python project other than just designing the User interface of an application.
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/sanath-kumar-s/Python-beginner-projects.git
+cd Alarm
+```
+
+2. **Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run a project**
+
+```bash
+cd [your-project-folder-name]
+python main.py
+```
+
+---
+
+## 📂 Project Structure
+
+```
+Alarm/
+│
+├── main.py
+├── alarm.mp3
+├── README.md
+├── requirments.txt
+```
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python** – Primary programming language
+- **CustomTkinter** – For the UI
+- **Pygame** – For playing the alarm audio
+
+---
+
+## 📋 Requirements
+
+Common dependencies across projects:
+
+```txt
+customtkinter==5.2.2
+pygame==2.6.1
+```
+
+_Note: Individual projects may have additional requirements. Check each project's `requirements.txt` file._
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👥 Contributors
+
+Sanath Kumar S
+
+---
+
+## 📞 Contact & Support
+
+- **Maintainer:** Sanath Kumar S
+- **Email:** sanathkumar5638@gmail.com
+- **Issues:** [Report bugs or request features](https://github.com/sanath-kumar-s/Python-beginner-projects/issues)
+- **Discussions:** [Join the conversation](https://github.com/sanath-kumar-s/Python-beginner-projects/discussions)
+
+---
+
+## 🌟 Show Your Support
+
+If you find this project helpful, please give it a ⭐️ on GitHub!
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions from developers of all skill levels! Here's how you can contribute:
+
+For detailed guidelines, please read [CONTRIBUTING.md](CONTRIBUTING.md)
+
+---
+
+## 📚 Learning Resources
+
+New to programming? Check out these resources:
+
+- [Python Official Documentation](https://docs.python.org/)
+- [GitHub Guides](https://guides.github.com/)
+- [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] Add 10 beginner projects
+- [ ] Add 5 intermediate projects
+- [ ] Create video tutorials
+- [ ] Add project templates
+- [ ] Improve documentation
+
+---
+
+<p align="center">
+  Made with ❤️ by the open source community
+</p>
