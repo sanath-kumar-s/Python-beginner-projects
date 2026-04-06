@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="assets/logo.png" width="28"> [Project Name]
+    <img src="placeHolderImage.png" width="28"> [Project Name]
 </h1>
 
 <p align="center">
@@ -9,15 +9,16 @@
 <p align="center">
   <!-- Mandatory Badges -->
   <a href="#getting-started"><img src="https://img.shields.io/badge/Get%20Started-Click%20Here-brightgreen" alt="Get Started" /></a>
-  <img src="https://img.shields.io/badge/License-MIT-green" alt="License MIT" />
-  
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License MIT" /> 
   <!-- Recommended Badges -->
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue" alt="Python Version" />
   <img src="https://img.shields.io/badge/Contributions-Welcome-orange" alt="Contributions Welcome" />
   <img src="https://img.shields.io/badge/Beginner%20Friendly-Yes-success" alt="Beginner Friendly" />
 </p>
 
-![Project Screen Captures](placeHolderImage.png) <!--OPTIONAL BUT RECOMMENDED-->
+<p align="center">
+  <img src = "placeHolderImage.png" alt = "ScreenCapture" width = "300" >
+</p><!--OPTIONAL BUT RECOMMENDED-->
 
 ## 📖 About
 
