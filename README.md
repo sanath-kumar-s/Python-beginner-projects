@@ -36,6 +36,8 @@ This repository is focused on:
 | [Alarm](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/Alarm)                           | Alarm app with Python                 | Python     | 🟢 Active |
 | [YT-VideoDownloader](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/YT-VideoDownloader) | Download YT videos from your terminal | Python     | 🟢 Active |
 | [FileDownloader](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/FileDownloader)         | Download any file from web            | Python     | 🟢 Active |
+| [Tick-Tack-Toe](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/Tick-Tack-Toe)           | Tick-Tack-Toe game                    | Python     | 🟢 Active |
+| [SimpleCalculator](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/SimpleCalculator)     | Simple Calculator                     | Python     | 🟢 Active |
 
 > ✨ **Feel free to add your project by creating a pull request!**
 
