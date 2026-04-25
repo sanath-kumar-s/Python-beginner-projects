@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="assets/images/wK.png" width="28"> Ultimate Python Chess
+    <img src="Chess/assets/images/pieces/wK.png" width="28"> Ultimate Python Chess
 </h1>
 
 <p align="center">
@@ -17,7 +17,8 @@
 </p>
 
 <p align="center">
-  <img src="assets/images/board_preview.png" alt="ScreenCapture" width="400" >
+  <img src="Chess/assets/images/README_assets/Screenshot 1.png" alt="ScreenCapture" width="400" >
+  <img src="Chess/assets/images/README_assets/Screenshot 2.png" alt="ScreenCapture" width="400" >
 </p>
 
 ## 📖 About
@@ -34,10 +35,10 @@ Built as part of a journey into game development and Artificial Intelligence, th
 - **Smart AI Opponent**: Challenge yourself with Easy, Medium, and Hard difficulty levels.
 - **Advanced AI Logic**: Uses Minimax with Alpha-Beta pruning for efficient decision-making.
 - **Full Ruleset**: Complete implementation of standard chess rules including:
-    - Castling (Kingside and Queenside)
-    - En Passant captures
-    - Pawn Promotion (with piece selection)
-    - Check, Checkmate, and Stalemate detection
+  - Castling (Kingside and Queenside)
+  - En Passant captures
+  - Pawn Promotion (with piece selection)
+  - Check, Checkmate, and Stalemate detection
 - **Game History**: Real-time move log in algebraic notation.
 - **Save & Load**: Save your games to resume them later.
 - **Audio Feedback**: Immersive sound effects for moves, captures, and check alerts.
@@ -58,14 +59,14 @@ Ensure you have the following installed:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/Ultimate-Python-Chess.git
-cd Ultimate-Python-Chess
+git clone https://github.com/sanath-kumar-s/Python-beginner-projects.git
+cd Python-beginner-projects
 ```
 
 2. **Install dependencies**
 
 ```bash
-pip install pygame
+pip install -r requirements.txt
 ```
 
 3. **Run the game**
@@ -119,6 +120,21 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+## 👥 Contributors
+
+In this secciton you can tell about yourself
+
+---
+
+## 📞 Contact & Support<!--Include this only if you know what you are doing and this is not mandatory. Delete this section if not required-->
+
+- **Maintainer:** [Your Name]
+- **Email:** [your.email@example.com]
+- **Issues:** [Report bugs or request features](https://github.com/[your-username]/[repository-name]/issues)
+- **Discussions:** [Join the conversation](https://github.com/[your-username]/[repository-name]/discussions)
+
+---
+
 ## 🌟 Show Your Support
 
 If you find this project helpful, please give it a ⭐️ on GitHub!
@@ -127,20 +143,32 @@ If you find this project helpful, please give it a ⭐️ on GitHub!
 
 ## 🤝 Contributing
 
-Contributions are welcome! Whether it's fixing bugs, adding new features (like online multiplayer or engine integration), or improving the design, feel free to fork and submit a PR.
+We welcome contributions from developers of all skill levels! Here's how you can contribute:
+
+For detailed guidelines, please read [CONTRIBUTING.md](CONTRIBUTING.md)
+
+---
+
+## 📚 Learning Resources
+
+New to programming? Check out these resources:
+
+- [Python Official Documentation](https://docs.python.org/)
+- [GitHub Guides](https://guides.github.com/)
+- [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 
 ---
 
 ## 🗺️ Roadmap
 
-- [x] Implement AI with Alpha-Beta pruning
-- [x] Add Pawn Promotion UI
-- [ ] Add Stockfish engine support
-- [ ] Implement Online Multiplayer
-- [ ] Add customizable board themes
+- [ ] Add 10 beginner projects
+- [ ] Add 5 intermediate projects
+- [ ] Create video tutorials
+- [ ] Add project templates
+- [ ] Improve documentation
 
 ---
 
 <p align="center">
-  Built with ❤️ by a Chess Enthusiast
+  Made with ❤️ by the open source community
 </p>

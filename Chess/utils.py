@@ -11,7 +11,7 @@ def load_assets():
 
 def load_images():
     pieces = ['wK', 'wQ', 'wR', 'wB', 'wN', 'wP', 'bK', 'bQ', 'bR', 'bB', 'bN', 'bP']
-    path = os.path.join('assets', 'images', 'pieces')
+    path = os.path.join("Chess",'assets', 'images', 'pieces')
     for piece in pieces:
         img = pygame.image.load(os.path.join(path, f"{piece}.png"))
         PIECES[piece] = pygame.transform.smoothscale(img, (SQUARE_SIZE, SQUARE_SIZE))
