@@ -29,18 +29,18 @@ This repository is focused on:
 
 ## 🚀 Projects List
 
-| Project Name                                                                                                  | Description                           | Tech Stack | Status    |
-| ------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ---------- | --------- |
-| [ExeFlow](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/PythonScriptCompiler)          | Python script compiler.               | Python     | 🟢 Active |
-| [FlappyBird](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/FlappyBird)                 | Simple flappy bird game               | Python     | 🟢 Active |
-| [Alarm](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/Alarm)                           | Alarm app with Python                 | Python     | 🟢 Active |
-| [YT-VideoDownloader](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/YT-VideoDownloader) | Download YT videos from your terminal | Python     | 🟢 Active |
-| [FileDownloader](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/FileDownloader)         | Download any file from web            | Python     | 🟢 Active |
-| [Tick-Tack-Toe](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/Tick-Tack-Toe)           | Tick-Tack-Toe game                    | Python     | 🟢 Active |
-| [SimpleCalculator](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/SimpleCalculator)     | Simple Calculator                     | Python     | 🟢 Active |
-| [chess](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/Chess)     | Chess game with single and multiplayer mode                     | Python     | 🟢 Active |
-| [MarkDownIDE](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/SimpleCalculator)     | You can write and preview markdown files with this app                     | Python     | 🟢 Active |
-| [SimpleCalculator](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/SimpleCalculator)     | Simple Calculator                     | Python     | 🟢 Active |
+| Project Name                                                                                                  | Description                                             | Tech Stack | Status    |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ---------- | --------- |
+| [ExeFlow](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/PythonScriptCompiler)          | Python script compiler.                                 | Python     | 🟢 Active |
+| [FlappyBird](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/FlappyBird)                 | Simple flappy bird game                                 | Python     | 🟢 Active |
+| [Alarm](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/Alarm)                           | Alarm app with Python                                   | Python     | 🟢 Active |
+| [YT-VideoDownloader](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/YT-VideoDownloader) | Download YT videos from your terminal                   | Python     | 🟢 Active |
+| [FileDownloader](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/FileDownloader)         | Download any file from web                              | Python     | 🟢 Active |
+| [Tick-Tack-Toe](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/Tick-Tack-Toe)           | Tick-Tack-Toe game                                      | Python     | 🟢 Active |
+| [SimpleCalculator](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/SimpleCalculator)     | Simple Calculator                                       | Python     | 🟢 Active |
+| [Chess](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/Chess)                           | Chess game with single and multiplayer mode             | Python     | 🟢 Active |
+| [MarkDownIDE](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/MarkDownIDE)               | You can write and preview markdown files with this app  | Python     | 🟢 Active |
+| [ExpenceTracker](https://github.com/sanath-kumar-s/Python-beginner-projects/tree/main/ExpenceTracker)         | It tacks your expences and shows the status with graphs | Python     | 🟢 Active |
 
 > ✨ **Feel free to add your project by creating a pull request!**
 
