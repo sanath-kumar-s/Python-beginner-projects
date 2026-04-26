@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="Chess/assets/images/pieces/wK.png" width="28"> Ultimate Python Chess
+    <img src="assets/images/pieces/wK.png" width="28"> Ultimate Python Chess
 </h1>
 
 <p align="center">
@@ -17,8 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="Chess/assets/images/README_assets/Screenshot 1.png" alt="ScreenCapture" width="400" >
-  <img src="Chess/assets/images/README_assets/Screenshot 2.png" alt="ScreenCapture" width="400" >
+  <img src="assets/images/README_assets/Screenshot 1.png" alt="ScreenCapture" width="400" ><img src="assets/images/README_assets/Screenshot 2.png" alt="ScreenCapture" width="400" >
 </p>
 
 ## 📖 About
