@@ -9,15 +9,15 @@
 <p align="center">
   <!-- Mandatory Badges -->
   <a href="#getting-started"><img src="https://img.shields.io/badge/Get%20Started-Click%20Here-brightgreen" alt="Get Started" /></a>
-  <img src="https://img.shields.io/badge/License-MIT-green" alt="License MIT" /> 
+  <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License MIT" /> 
   <!-- Recommended Badges -->
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue" alt="Python Version" />
   <img src="https://img.shields.io/badge/UI-PySide6-blueviolet" alt="UI PySide6" />
-  <img src="https://img.shields.io/badge/Database-SQLite-lightgrey" alt="SQLite" />
+  <img src="https://img.shields.io/badge/Database-SQLite-black" alt="SQLite" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pyside/pyside-setup/master/sources/pyside6/doc/logo.png" alt="ScreenCapture" width="200">
+  <img src="assets/appImg.png" alt="ScreenCapture" width="400">
 </p><!--OPTIONAL BUT RECOMMENDED-->
 
 ## 📖 About
